@@ -1,23 +1,43 @@
 {
-  "name": "js",
+  "name": "adv",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "http-server": "^13.0.0"
+    "autoprefixer": "^9.8.6",
+    "bootstrap": "^4.6.0",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.26.14",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pxtorem": "^3.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "save": "^2.4.0",
+    "select2": "^4.1.0-rc.0",
+    "swiper": "^6.5.7",
+    "tippy.js": "^6.3.1"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/todirasandrian/JS-Curs.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/todirasandrian/JS-Curs/issues"
   },
-  "homepage": "https://github.com/todirasandrian/JS-Curs#readme"
+  "homepage": "https://github.com/todirasandrian/JS-Curs#readme",
+  "description": ""
 }
